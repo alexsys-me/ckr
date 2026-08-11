@@ -3144,10 +3144,10 @@ table tbody tr td a:not(._btn) {
   filter: grayscale(0);
   opacity: 1;
 }
-
+.q-page .dropdown__current{ height: 50px;}
 .dropdown__current {
   padding: var(--12px);
-  background: #f0f2fc;
+  background: #f6f7f8;
   cursor: pointer;
   position: relative;
   display: flex;
@@ -3722,7 +3722,7 @@ input._togle+label::before {
 }
 
 .quest-page__wp {
-  max-width: max(25.7vw, 370px);
+  max-width: 450px;    width: 100%;
   display: flex;
   flex-direction: column;
   gap: var(--16px);
@@ -3742,7 +3742,7 @@ input._togle+label::before {
 .quest-page__inp input,
 .quest-page__inp textarea {
   width: 100%;
-  background: #f0f2fc;
+ 
 }
 
 .quest-page__inp .dropdown {
@@ -3761,11 +3761,11 @@ input._togle+label::before {
 }
 
 .quest-page__upload label {
-  background: rgba(94, 114, 228, 0.09);
-  color: #192b3f;
+  background: rgb(246 247 249);
+  color: #192b3f; font-size: 400;
   white-space: nowrap;
 }
-
+.quest-page__upload label:hover{ background-color: rgb(219 222 227);}
 .quest-page__upload svg {
   opacity: 1;
   color: #000;
@@ -7453,3 +7453,109 @@ h2 {
 
 .partner-history__top  .search{    background: #F0F2FC; min-width: 45%; }
 .partner-history__top  .search input{     height: 40px;}
+
+
+
+
+/*----------NEW_STYLE---------------*/
+.bx-auth-serv-icons{flex: 100%;flex-wrap: wrap;}
+.bx-auth-serv-icons .bx-ss-icon{    width: 47px; margin-right: 10px;}
+#bx_auth_href_YandexOAuth{background-color: #142232; width: 100%; border-radius: 8px!important; color: #fff; height: 60px!important;width: 100%;  display: flex;justify-content: center;}
+#bx_auth_href_VKontakte{ background-color: #2787F5; width: 100%; border-radius: 8px!important; color: #fff;height: 60px!important;width: 100%; display: flex ;justify-content: center; }
+#bx_auth_href_VKontakte::after{ content: 'Войти с яндекс ID';white-space: nowrap;    font-size: 20px;    line-height: 60px;}
+#bx_auth_href_YandexOAuth::after{ content: 'Войти через ВК';white-space: nowrap;    font-size: 20px;    line-height: 60px;}
+.quest-page__wp input{font-size: 14px;}
+.quest-page__wp .warning{ color: #FF8201; margin: 10px 0;}
+.tovar_vosvrats h2{
+    font-size: 22px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+}
+.prichina{ width: 100%; }
+.prichina label{ 
+    width: 100%;
+    margin-bottom: 15px;
+    color: #9FA8B8;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.q-page{ display: flex; justify-content: space-between;}
+.prichina label input{ margin-right:5px;     width: 20px;    height: 20px; }
+.quest-page__inp textarea{margin-bottom: 10px;}.quest-page__inp .micro{ font-size: 14px;}
+.vosvrat_sec{ padding: 20px; border-top: 1px solid #E4E4E4; width: 100%;}
+.vosvrat_sec h2{ margin-bottom: 30px;}
+.vosvrat_sec form{margin-bottom: 30px;}
+.vosvrat_sec button{ background: #F6CC2F; font-weight: 500; border-radius: 8px; padding: 10px 25px;}
+.vosvrat_sec button:hover{background:#e5be2a}
+.vosvrat_sec span{ font-size: 14px; color:#5C6772;max-width: 700px; display: block; line-height: 130%; margin-top: 5px;}
+.vosvrat_sec .file_grop{ margin: 30px 0; display: flex; gap: 10px;}
+textarea{ height: 150px; display: block; margin-bottom: 45px; background-color: #F0F2FC; padding: 15px; color:#808B9C; font-size: 14px; border-radius: 10px; width: 100%; max-width: 700px;}
+.file_input{ cursor: pointer; background-color: #F7F8FF; border-radius: 15px; width: 150px;height: 120px; text-align: center; display: flex;align-items: center; flex-direction: column; color: #192B3F;font-size: 18px;    justify-content: center;}
+.file_input img{ max-width: 30px; margin-bottom: 10px;}
+
+.more-info-war{background-color: #FFF5D0; border-radius: 8px; padding: 25px; margin: 20px 0; }
+.more-info-war .title{font-size: 18px;font-weight: 500; padding-bottom: 15px;}.more-info-war .title::before{ content: url('../img/faq.svg'); display: block; float: left; margin-right: 10px;}
+.more-info-war  .faq__quest{font-size: 16px;}
+.more-info-war .faq__resp div{font-size: 14px;}
+
+.post-prew{ margin-top: 20px;}
+.post-info{  max-width: 550px;}
+.good-post{ flex:100%; max-width: 600px; margin-top: 20px;}
+.good-alert{ background-color: #FFF5D0; border-radius: 15px; padding: 20px; color: #28344D; font-size: 14px; line-height: 130%; margin-bottom: 25px;}
+.good-action{align-items: center; display: flex; font-size: 14px; color: #636F7D;}
+.good-action ._btn{ min-width: 200px;margin-right: 15px;}
+
+.post-more-info{ display: flex; flex-direction: column; gap: 10px; color: #28344D;}
+.post-price{font-size: 24px; font-weight: 500;}
+.post-title{ font-size: 21px;font-weight: 500;}
+.post-desc{ font-size: 14px; color: #28344D; line-height: 130%;}
+.q-page input{ height: 50px;}
+
+.quest-page__upload{ background-color: #F6F7F9; border-radius: 8px; padding: 10px;}
+
+.btn_g{ display: flex; gap: 10px;}
+.btn_g  button{  font-size: 14px; flex: 200px;}
+.btn_g  button.disable{ cursor: default!important; background-color: #EDEFF4!important;}
+.post-img{ margin-bottom: 20px; display: flex; gap: 8px;}
+
+
+.card-product__minis {
+  width: 20%;
+  flex: 0 0 20%;
+  height: auto;
+}
+
+ 
+
+.card-product__minis img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 5px;border: 1px solid #b0bbc6;
+}
+
+.card-product__slider {
+  width: 80%;
+  flex: 0 0 80%;
+  position: relative;
+}
+
+@media (max-width: 1100px) {
+  .card-product__slider {
+    width: 100%;
+    max-width: 550px;
+    margin: 0px auto;
+    order: 1;
+  }
+}
+.card-product__minis .swiper-slide { cursor: pointer; height: 107px!important;}
+.card-product__slider img {
+  width: 100%;
+  aspect-ratio: 555/745;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid #b0bbc6;
+  border-radius: 15px;
+}
