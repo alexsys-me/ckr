@@ -46,10 +46,14 @@
 				<span>Алексей Валерьевич</span>
 				<p>ContectCenter</p>
 			</div>
-			<svg class="left-menu__arr">
-				<use href="#icon-arrows">
-				</use>
-			</svg>
+			<div class="left-menu_side">
+				<a href="#" class="enter"></a>
+				<svg class="left-menu__arr">
+					<use href="#icon-arrows">
+					</use>
+				</svg>
+			</div>
+			
 		</div>
 		<div class="left-menu__links">
 			<a href="index.html" class="_active">
@@ -209,50 +213,108 @@
 		<div class="header__burger"><img src="img/br.svg" alt></div>
 	</div>
 
-</header>
-				<main class="page">
+</header>			
+		<main class="page">
+			<div class="partners__button _tabs-itms">
+				<button href="#" class="_btn _v2" data-popup="popup_new-partner">Добавить партнера</button>
+			</div>
 
-					<div class="partners _tabs">
-						<div class="partners__top _tabs-itms">
-							<div class="_tabs-item _active">Входящие</div>
-							<div class="_tabs-item ">Исходящие</div>
-							<button href="#" class="_btn _v2" data-popup="popup_new-partner">Добавить партнера</button>
-						</div>
-						<div class="partners__block _tabs-block _active">
-							<div class="home _v2">
-								<div class="home__text">Получайте комиссию 25% с каждого клиента, которого вы привели в
+			<div class="home _v2">
+				<div class="home__text">Получайте комиссию 25% с каждого клиента, которого вы привели в
 									Center Context. Процент начисляется со всех платежей, сделанных клиентом в течение года
 									после регистрации. Клиенты, которые зарегистрируются по вашей ссылке, получат в подарок 2
 									000 р. на использование системы
-								</div>
-								<div class="notification-info">
-									<div class="notification-info__left">
-										<img src="img/Thumbnail.svg" alt>
-										<span>Master</span>
-									</div>
-									<div class="notification-info__center">
-										<h3>Привет, Алексей</h3>
-										<p>Ваш тариф: Pro</p>
-										<div>Должность: <span>Директолог</span></div>
-									</div>
-								</div>
+				</div>
+				<div class="notification-info">
+					<div class="notification-info__left">
+							<img src="img/Thumbnail.svg" alt>
+							<span>Master</span>
+					</div>
+					<div class="notification-info__center">
+							<h3>Привет, Алексей</h3>
+							<p>Ваш тариф: Pro</p>
+							<div>Должность: <span>Директолог</span></div>
 							</div>
-							<div class="partners__details">
-								<p>Детализация дохода по уровням рефералов</p>
-								<ul class="ul-itms">
-									<li class="_grey3"><b>Оборот за все время:</b> 1 235 653руб</li>
-									<li class="_grey3"><b>Доход за все время:</b> 1 235 653руб</li>
-								</ul>
+					</div>
+				</div>
+					<div class="partners_link">
+							<h2>Ваша реферальная ссылка</h2>
+							<p>Универсальная ссылка: клиент попадает на главную, оставляет заявку - и автоматически закрепляеться за Вами на 30 дней</p>
+							<div class="partners_inputgroup">
+								<input type="text" value="CKR.ru/asdsd4423=?">
+								<button>	
+									 	
+									Скопировать
+								</button>
 							</div>
+					</div>
+					<h2>Клиенты </h2>
+					<div class="klints_table">
+						<table>
+							<thead>
+								<td>Сайт</td>
+								<td>Имя </td>
+								<td>Телефон</td>
+								<td>Почта</td>
+								<td>ИНН</td>
+								<td>Услуга</td>
+								<td>Дата</td>
+								<td>Статус</td>
+								<td>Оборот</td>
+								<td>Вознаграждения</td>
+								<td>Комментарий</td>
+								<td></td>
+
+							</thead>
+							<tr><td>http://askp.ru</td>
+								<td>Олег</td>
+								<td>+79955497062</td>
+								<td>info@mail.ru</td>
+								<td>4353437</td>
+								<td>Контекстная реклама</td>
+								<td>25.05.2025</td>
+								<td><span class="norm">Новый</span></td>
+								<td>1 456 000 руб</td>
+								<td>12 350 руб</td>
+								<td>Комментарий</td>
+								<td><a href="#" class="more_btn">Подробнее</a></td>
+
+							</tr>
+						</table>
+					</div>
+					<div class="partners__details">
+								<div>
+									<p>Детализация дохода по уровням рефералов</p>
+									<ul class="ul-itms">
+										<li class="_grey3"><b>Оборот за все время:</b> 1 235 653руб</li>
+										<li class="_grey3"><b>Доход за все время:</b> 1 235 653руб</li>
+									</ul>
+								</div>
+								<div class="right_history">
+									<div class="search">
+										<img src="img/search.svg" alt="">
+										<input placeholder="Клиент" type="text">
+									</div>
+									
+								</div>
+					</div>
+					<div class="partners _tabs">
+						<div class="partners__top _tabs-itms">
+							<div class="_tabs-item _active">Входящие</div>
+							<div class="_tabs-item ">Исходящие</div>							
+						</div>
+
+						<div class="partners__block _tabs-block _active">
+							<div class="partner-history__date">
+										Март 2024
+							</div>					
 							<div class="partners__table">
 								<table>
 									<tr>
-										<td>Логин</td>
+										<td>ID клиента</td>
 										<td>Клиент</td>
-										<td>Дата приглашения</td>
-										<td>Оборот</td>
-										<td>Вознаграждение</td>
-										<td></td>
+										<td>Дата вывода </td>
+										<td>Сумма вывода</td>
 									</tr>
 									<tr>
 										<td>
@@ -262,15 +324,24 @@
 										<td>ООО Gorski</td>
 										<td>01.05.2025</td>
 										<td>4 500р</td>
-										<td>4 500р</td>
+									</tr>
+									<tr>
 										<td>
-											<button>
-												<svg>
-													<use href="#icon-pencil-20"></use>
-												</svg>
-											</button>
-											<a href="#" class="_btn">Подробнее</a>
+											verand@mail.ru
+											<span>vs-123685</span>
 										</td>
+										<td>ООО Gorski</td>
+										<td>01.05.2025</td>
+										<td>4 500р</td>									
+									</tr>
+									<tr>
+										<td>
+											verand@mail.ru
+											<span>vs-123685</span>
+										</td>
+										<td>ООО Gorski</td>
+										<td>01.05.2025</td>
+										<td>4 500р</td>						
 									</tr>
 									<tr>
 										<td>
@@ -280,15 +351,6 @@
 										<td>ООО Gorski</td>
 										<td>01.05.2025</td>
 										<td>4 500р</td>
-										<td>4 500р</td>
-										<td>
-											<button>
-												<svg>
-													<use href="#icon-pencil-20"></use>
-												</svg>
-											</button>
-											<a href="#" class="_btn">Подробнее</a>
-										</td>
 									</tr>
 									<tr>
 										<td>
@@ -298,15 +360,6 @@
 										<td>ООО Gorski</td>
 										<td>01.05.2025</td>
 										<td>4 500р</td>
-										<td>4 500р</td>
-										<td>
-											<button>
-												<svg>
-													<use href="#icon-pencil-20"></use>
-												</svg>
-											</button>
-											<a href="#" class="_btn">Подробнее</a>
-										</td>
 									</tr>
 									<tr>
 										<td>
@@ -316,81 +369,13 @@
 										<td>ООО Gorski</td>
 										<td>01.05.2025</td>
 										<td>4 500р</td>
-										<td>4 500р</td>
-										<td>
-											<button>
-												<svg>
-													<use href="#icon-pencil-20"></use>
-												</svg>
-											</button>
-											<a href="#" class="_btn">Подробнее</a>
-										</td>
-									</tr>
-									<tr>
-										<td>
-											verand@mail.ru
-											<span>vs-123685</span>
-										</td>
-										<td>ООО Gorski</td>
-										<td>01.05.2025</td>
-										<td>4 500р</td>
-										<td>4 500р</td>
-										<td>
-											<button>
-												<svg>
-													<use href="#icon-pencil-20"></use>
-												</svg>
-											</button>
-											<a href="#" class="_btn">Подробнее</a>
-										</td>
-									</tr>
-									<tr>
-										<td>
-											verand@mail.ru
-											<span>vs-123685</span>
-										</td>
-										<td>ООО Gorski</td>
-										<td>01.05.2025</td>
-										<td>4 500р</td>
-										<td>4 500р</td>
-										<td>
-											<button>
-												<svg>
-													<use href="#icon-pencil-20"></use>
-												</svg>
-											</button>
-											<a href="#" class="_btn">Подробнее</a>
-										</td>
 									</tr>
 								</table>
 							</div>
 						</div>
 						<div class="partners__block _tabs-block ">
-							<div class="home _v2">
-								<div class="home__text">Получайте комиссию 25% с каждого клиента, которого вы привели в
-									Center Context. Процент начисляется со всех платежей, сделанных клиентом в течение года
-									после регистрации. Клиенты, которые зарегистрируются по вашей ссылке, получат в подарок 2
-									000 р. на использование системы
-								</div>
-								<div class="notification-info">
-									<div class="notification-info__left">
-										<img src="img/Thumbnail.svg" alt>
-										<span>Master</span>
-									</div>
-									<div class="notification-info__center">
-										<h3>Привет, Алексей</h3>
-										<p>Ваш тариф: Pro</p>
-										<div>Должность: <span>Директолог</span></div>
-									</div>
-								</div>
-							</div>
-							<div class="partners__details">
-								<p>Детализация дохода по уровням рефералов</p>
-								<ul class="ul-itms">
-									<li class="_grey3"><b>Оборот за все время:</b> 1 235 653руб</li>
-									<li class="_grey3"><b>Доход за все время:</b> 1 235 653руб</li>
-								</ul>
-							</div>
+							
+						 
 							<div class="partners__table">
 								<table>
 									<tr>
@@ -513,9 +498,8 @@
 							</div>
 						</div>
 					</div>
-					<!-- <svg>
-						<use href="#icon-profile"></use>
-					</svg> -->
+					
+					
 				</main>
 			</div>
 		</div>
